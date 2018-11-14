@@ -13,6 +13,7 @@ var fy=0;
    console.log(rows.length-fy)
    for(let i = 0;i < row.length; i++){
       if(row[i].split(' ')[0].match(/(\bz\S+\b)/ig)){//
+        console.log(row[i]);
       }  
    }
    for(let i = 0;i < rows.length; i++){   
